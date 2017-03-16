@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Randomizer" annotations="JDK" time-out="2000">
+
+    <test name="Randomizer Test" verbose="1" annotations="JDK" time-out="2000">
+        <packages>
+            <package name="com.reselbob.training.utilities.qarandomizer.testng"/>
+        </packages>
+        <classes/>
+    </test>
+
+</suite>
+
+ 
+
