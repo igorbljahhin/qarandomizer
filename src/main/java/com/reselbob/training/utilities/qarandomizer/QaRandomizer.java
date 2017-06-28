@@ -417,7 +417,7 @@ public final class QaRandomizer implements QaRandomizable {
 
 
     public String getEmailAddress() {
-        String fn = getFirstName().replaceAll(" ", "_").replaceAll(".", "_").replaceAll("-", "_");
+        String fn = getFirstName().replace(" ", "_").replace(".", "_").replace("-", "_");
         String ext = getRandomItem(emailDomainTypes);
         String domain = getSimpleString(20);
         
